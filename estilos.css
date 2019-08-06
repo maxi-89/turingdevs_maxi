@@ -19,7 +19,8 @@ a {
 
   text-decoration: none;
   display: block;
-  color:#fff;
+  columns: #ffffff;
+  color: #fc770b;
 
 }
 
@@ -28,7 +29,7 @@ a:hover {
 background: #008947;
 color: #2e2e2e; }
 
-}
+
   li {
    
     display: inline-block;
@@ -36,6 +37,20 @@ color: #2e2e2e; }
     text-align: center;
    
 
+
+  }
+a.yellow{
+background: #13af0d;
+color: #000000;
+
+
+  }
+  .caja{
+position: absolute;
+top: 700px;
+left:600px;
+bottom: 50px;
+right: 0;
 
   }
   div{
@@ -46,7 +61,7 @@ color: #2e2e2e; }
     margin:20px 50px;
     padding: 25px;
     background: #008947;
-    border: 20px solid #fff;
+    border: 20px solid #000000;
     display: inline-block;
 
 
@@ -67,9 +82,15 @@ color: #2e2e2e; }
     
     
   }
-  
+  form{
+background: orange;
+margin: 0;
+padding: 30px;
+
+
+  }
  p{
     
     font-style:oblique;
-    color: orange;
+    color: orangered;
   }
